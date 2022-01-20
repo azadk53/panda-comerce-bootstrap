@@ -12,7 +12,7 @@
 <body>
     <!--navbar -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -26,13 +26,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
 
@@ -126,9 +126,9 @@
             </div>
         </section>
         <!--shoes card-->
-        <section class="container">
+        <section class="container" id="shoes">
             <h2>Shoes</h2>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
                     <div class="card border-0 shadow-lg h-100">
                         <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
@@ -174,8 +174,69 @@
                 </div>
             </div>
         </section>
+        <!-- Bags card-->
+        <section class="container my-5" id="backpack">
+            <h2>Backpack</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Supply 350</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="m-3">
+                            <button class="btn btn-warning">buy now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">nike 360</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                        <div class="m-3">
+                            <button class="btn btn-warning">buy now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 shadow-lg h-100">
+                        <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Red airmax</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                        </div>
+                        <div class="m-3">
+                            <button class="btn btn-warning">buy now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--subscribe-->
+        <section style="height: 400px;"
+            class="container bg-info rounded-3 d-flex justify-content-center align-items-center" id="subscribe">
+            <div>
+                <h1>LETS STAY IN TOUCH</h1>
+                <P> Get updates on sales, specials and more</P>
+                <input type="text" placeholder="Your email">
+                <br>
+                <button class="btn btn-warning">submit</button>
+            </div>
+        </section>
     </main>
-    <footer>
+    <footer class="mt-5 text-center">
+        <p><small> 2020. panda comerce .All right reseve to Sofia, Bulgeria</small></p>
 
     </footer>
 
